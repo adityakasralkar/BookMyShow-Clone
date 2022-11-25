@@ -89,8 +89,8 @@ To run this project, you will need to add the environment variables to your .env
 ## Project Glimpse
 
  - Landing Page :
- 
- 
+            ![1](https://user-images.githubusercontent.com/78255411/204000610-8201829a-b14c-4bd2-9510-d546d47f8fb0.png)
+
  - Movie Page :
 
 
