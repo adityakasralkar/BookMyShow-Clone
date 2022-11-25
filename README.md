@@ -84,18 +84,6 @@ To run this project, you will need to add the environment variables to your .env
 `API_KEY` : `YOUR REGISTERED API KEY WITH TMDB Website`
 
 
-
-
-## Project Glimpse
-
-  ## -- Landing Page :
-            ![1](https://user-images.githubusercontent.com/78255411/204000610-8201829a-b14c-4bd2-9510-d546d47f8fb0.png)
-
-  ## -- Movie Page :
-            ![2](https://user-images.githubusercontent.com/78255411/204001245-b87b613d-991a-4444-94f1-b25b4c3392e3.png)
-
-
-
 ## Authors
 
 - [@Aditya Kasralkar](https://github.com/adityakasralkar)
