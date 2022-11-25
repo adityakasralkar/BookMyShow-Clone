@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarComponent from '../Components/Navbar/NavbarComponent'
+import Footer from './Footer'
 
 const DefaultLayout = (Component) => ({ ...props }) => {
   return (
@@ -7,7 +8,7 @@ const DefaultLayout = (Component) => ({ ...props }) => {
     <div>
         <NavbarComponent />
         <Component {...props}/>
-        <div>Footer</div>
+        <Footer/>
     </div>
     </>
   )

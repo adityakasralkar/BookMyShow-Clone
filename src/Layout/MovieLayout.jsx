@@ -1,5 +1,6 @@
 import React from 'react'
 import MovieNavbarComponent from '../Components/Navbar/MovieNavbarComponent'
+import Footer from './Footer'
 
 const MovieLayout = (Component) => ({ ...props })=> {
   
@@ -10,7 +11,7 @@ const MovieLayout = (Component) => ({ ...props })=> {
     <div>
         <MovieNavbarComponent />
         <Component {...props}/>
-        <div>Footer</div>
+        <Footer/>
     </div>
     </>
   )

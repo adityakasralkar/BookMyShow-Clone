@@ -40,8 +40,10 @@ const MovieHero = () => {
                     className="absolute z-10 w-full h-full" 
                     style={{backgroundImage: "linear-gradient(90deg, rgba(0,0,0,0.95) 2%, rgba(78,75,75,0.85) 31%, rgba(117,116,116,0.65) 46%, rgba(185,185,185,0.55) 63%, rgba(205,205,205,0.4) 76%, rgba(255,254,254,0.3) 90%, rgba(255,255,255,0.1) 100%)"}}
                 />
-
-                <div className="absolute z-30 left-24 top-10 flex item-center gap-10">
+                
+    
+                
+                <div className="absolute z-30 left-20 top-8 flex item-center p-4 rounded-xl gap-10 bg-blue-100 bg-opacity-20 bg-clip-padding backdrop-blur-xs backdrop-grayscale-0 pr-24 shadow-md" >
                     <div className="w-64 h-96">
                         <img 
                             src={`https://image.tmdb.org/t/p/original${movie.poster_path}`} 
@@ -53,6 +55,9 @@ const MovieHero = () => {
                         <MovieInfo movie={movie}/>
                     </div>
                 </div>
+                
+                
+
 
                 <img 
                     src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} 
