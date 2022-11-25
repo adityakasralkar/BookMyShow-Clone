@@ -20,7 +20,7 @@ ReactJS Clone Project consist the BookMyShow Website Cloning with the use of API
 ## API Reference
 
 ```http
-    Project Movie API: https://www.themoviedb.org/documentation/api
+    Project Movie API: "https://www.themoviedb.org/documentation/api"
 ```
 
 | Parameter | Type     | Description                    |
